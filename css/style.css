@@ -74,6 +74,7 @@ body{
 #similar h1{	
 	width: 200px;
 	height: 50px;
+	border-radius: 10px;
 	line-height: 50px ;
 	text-align: center;
 }
@@ -81,11 +82,7 @@ body{
 #on-sales h1::after,
 #new-arrivals h1::after,
 #similar h1::after{
-	content: "";
-	border-top: 50px solid #e35e00;
-	border-right: 50px solid transparent;
-	position: absolute;
-	margin-left: 39px;
+	
 }
 #on-sales h1::after{
 	margin-left:42px;
