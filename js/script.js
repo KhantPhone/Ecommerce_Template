@@ -21,6 +21,8 @@
 			$bars.show();
 		}
 		else{
+			$times.hide();
+			$sidebar.hide();
 			$sidebar.show();			
 		}
 	})
