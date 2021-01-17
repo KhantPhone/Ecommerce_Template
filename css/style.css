@@ -61,8 +61,8 @@ body{
 }
 /*feature section*/
 #feature-product img:hover{
-	transform: scale(1.2);
-	transition: transform 1.5s ease;
+	transform: scale(1.1);
+	transition: transform 1s ease;
 	
 }
 #feature-product .col-md-4{
