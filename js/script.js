@@ -5,6 +5,7 @@
 	$sidebar =$('#sidebar-slider .col-md-2');
 
 	$bars.click(function () {
+		
 		$times.show();
 		$sidebar.show();
 		$bars.hide();
@@ -16,14 +17,23 @@
 	});
 	$win.resize(function () {
 		if ($win.width() <= 768) {
+			
+		}
+		else{
+				
+		}
+	})
+	
+})
+
+if ($(window).width() < 960) {
+ 	
 			$times.hide();
 			$sidebar.hide();
 			$bars.show();
-		}
-		else{
-			$times.hide();
+}
+else {
+  $times.hide();
 			$sidebar.hide();
-			$sidebar.show();			
-		}
-	})
-})
+			$sidebar.show();		
+}
